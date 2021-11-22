@@ -29,14 +29,14 @@ Create a Factory Function called `TaxiTrips` with the following methods:
 Function name            | Description   
 ------------------------ | ---------------
 `totalTripCount` 		 | return the total number of trips made               
-`findAllRegions` 		     |  find all the regions              
-`findTaxisForRegion` 	     |  find all the taxis for a given region - use region name as look up
+`findAllRegions` 		 |  find all the regions              
+`findTaxisForRegion` 	 |  find all the taxis for a given region - use region name as look up
 `findTripsByRegNumber` 	 |  Find all the trips made by a given taxi - use reg number as look up
-`findTripsByRegion` 	     |  Find all the trips made for a given region - use the region name as lookup
-`findIncomeByRegNumber`    |  List the income for each taxi - use reg number in this query
-`findTotalIncomePerTaxi`   |  find the total income per taxi
+`findTripsByRegion` 	 |  Find all the trips made for a given region - use the region name as lookup
+`findIncomeByRegNumber`  |  List the income for each taxi - use reg number in this query
+`findTotalIncomePerTaxi` |  find the total income per taxi
 `findTotalIncome` 		 | Find the total amount received in income for all the taxis
-`findTotalIncomeByRegion`  | Find the total amount income for each of the regions
+`findTotalIncomeByRegion`| Find the total amount income for each of the regions
 	
 The methods should use SQL to do the calculations.
 
