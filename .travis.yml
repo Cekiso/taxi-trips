@@ -13,5 +13,5 @@ env:
 before_script:
   - psql -c 'create database taxi_trips_tests;' -U postgres
   - psql -U postgres -d taxi_trips_tests -a -f tables.sql
-  - psql -U postgres -d taxi_trips_tests -a -f data.sql
+  
 
